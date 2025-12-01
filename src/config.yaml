@@ -1,0 +1,20 @@
+urls:
+  base_url: "https://www.elitigation.sg/"
+  listing_url: "https://www.elitigation.sg/gd"
+
+
+paths:
+  pdf_dir: "input"
+  log_dir: "logs"
+  output_dir: "output"
+  report_file: "processed_files.log"
+  output_csv: "extracted_cases.csv"
+  download_log: "download_log.csv"
+
+extraction:
+  max_pdf_pages: 3
+  header_max_lines: 40
+
+network:
+  listing_timeout: 10
+  pdf_timeout: 20
