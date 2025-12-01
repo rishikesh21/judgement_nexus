@@ -1,1 +1,1 @@
-# This separation between buffer and final storage ensures that partial or inconsistent results never corrupt the main dataset and also to handle vaccum properly . 
+### This script crawls Singapore court judgment listings, downloads available PDF files, extracts the decision date using a small set of deterministic rules, and writes the results to a CSV with full logging and resume support. 
